@@ -10,7 +10,6 @@
 }
 body {
     width: 1440px;
-    height: 652px;
     margin: 0 auto;
 }
 #hero{
@@ -27,12 +26,10 @@ body {
     justify-content: flex-start;
     align-items: center;
     padding: 0px;
-    border: 2px solid red;
 }
 
 .hero-img {
     margin-bottom: 32px;
-    border: 2px solid red;
 }
 .hero-title {
     height: 136px;
@@ -42,7 +39,6 @@ body {
     line-height: 68px;
     text-align: center;
     margin-bottom: 24px;
-    border: 2px solid red;
 }
 
 .hero-description {
@@ -53,14 +49,12 @@ body {
     font-weight: 400;
     line-height: 26px;
     text-align: center;
-    border: 2px solid red;
     margin-bottom: 32px;
 }
 
 .hero-btn {
     width: 208px;
     height: 66px;
-    border: 2px solid red;
     padding: 15px 15px;
     border-radius: 8px;
     background: rgb(13, 19, 33);
@@ -75,16 +69,17 @@ body {
 
 
 
-
-.section-two{
+.section-two {
     width: 1140px;
     height: 1395px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
-    padding: 80px 97px 80px 97px;
     margin: 74px auto;
-    border: 2px solid red;
-    
+    border: 2px solid white;
+}
+
+.section-two-content {
+    margin: 80px 97px 80px 97px;
 }
 .section-too-div{
     width: 946px;
@@ -94,13 +89,16 @@ body {
     
 }
 .section-two-div{
+    width: 852px;
+    height: 115px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    margin: 0px 47px 48px 47px;
 }
 .section-two-head{
     color: rgb(13, 19, 33);
-
     font-size: 32px;
     font-weight: 800;
     line-height: 37px;
@@ -115,37 +113,34 @@ body {
     text-align: center;
     margin-top: 24px;
 }
+
+
 .main-main {
     width: 946px;
     height: 1072px;
     display: flex;
     flex-direction: column;
-    border: 2px solid greenyellow;
-    margin-top: 48px;
-    padding: 48px;
+    justify-content: center;
 }
 .main{
     width: 946px;
     height: 336px;
     display: flex;
-    /* flex-direction: column; */
-    border: 2px solid red;
     border-radius: 16px;
     justify-content: space-between;
     align-items: center;
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
 .main-under-div{
-     /* width: 477px;
-     height: 219px; */
+     width: 550px;
+     height: 280px;
      display: flex;
      flex-direction: column;
      justify-content: space-between;
-     border: 2px solid red;
-     margin: 0px 10px;
 }
+
 .main-under-head{
-    width: 390px;
+    width: 100%;
     height: 72px;
     margin: 16px 0px;
     color: rgba(13, 19, 33, 0.7);
@@ -153,6 +148,7 @@ body {
     font-weight: 700;
     line-height: 36px;
     text-align: left;
+    margin-bottom: 10px;
 }
 .main-under-pra{
     color: rgb(13, 19, 33,0.7);
@@ -166,7 +162,6 @@ body {
     width: 171px;
     height: 47px;
     box-sizing: border-box;
-    border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
     color: rgb(13, 19, 33);
     font-size: 20px;
@@ -179,6 +174,9 @@ body {
 .design2{
     margin-top: 32px;
     margin-bottom: 32px;
+}
+.design2 .main-under-div {
+    width: 600px;
 }
 .design3{
     margin-bottom: 0px;
@@ -195,7 +193,6 @@ body {
     display: flex;
     flex-direction: column;
     margin: 90px auto;
-    border: 2px solid blue;
     justify-content: space-between;
     align-items: center;
 }
@@ -207,7 +204,6 @@ body {
     align-items: center;
     justify-content: center;
     margin-bottom: 48px;
-    border: 2px solid red;
 }
 .video-head{
     width: 100%;
@@ -216,7 +212,6 @@ body {
     font-size: 32px;
     font-weight: 800;
     text-align: center;
-    border: 2px solid yellowgreen;
     margin-bottom: 24px;
 }
 .video-para{
@@ -227,7 +222,6 @@ body {
     font-weight: 400;
     line-height: 26px;
     text-align: center;
-    border: 2px solid black;
     
 }
 .jonkar-video{
@@ -236,7 +230,6 @@ body {
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
-    border: 2px solid red;
     padding: 32px;
 }
 
@@ -244,7 +237,6 @@ body {
 .jonkar-video iframe {
     width: 1076px;
     height: 550px;
-    border: 2px solid burlywood;
 }
 
 
@@ -262,7 +254,6 @@ body {
     height: 115px;
     display: flex;
     flex-direction: column;
-    border: 2px solid chocolate;
     align-items: center;
 }
 
@@ -299,7 +290,6 @@ body {
     flex-direction: row;
     margin-top: 48px;
     align-items: center;
-    border: 2px solid palegreen;
     gap: 24px;
 }
 
@@ -312,7 +302,6 @@ body {
     align-items: flex-start;
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
-    border: 2px solid blueviolet;
     
 }
 .html-second-div{
@@ -322,7 +311,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    border: 2px solid red;
     margin: 40px;
 }
 
@@ -377,10 +365,7 @@ body {
     justify-content: flex-start;
     align-items: flex-start;
     border-radius: 16px;
-
     background: rgba(0, 76, 232, 0.05);
-    
-    border: 2px solid blueviolet;
 }
 
 .css-second-div{
@@ -390,7 +375,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    border: 2px solid red;
     margin: 40px;
 }
 
@@ -411,9 +395,6 @@ body {
 .css-para{
     width: 284px;
     height: 52px;
-    display:flex ;
-    flex-direction: column;
-    align-items: flex-start;
     color: rgb(13, 19, 33, 0.7);
     font-size: 16px;
     font-weight: 400;
@@ -424,9 +405,6 @@ body {
 .css-atr{
     width: 284px;
     height: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 700;
@@ -445,10 +423,7 @@ body {
     justify-content: flex-start;
     align-items: flex-start;
     border-radius: 16px;
-
     background: rgba(255, 223, 0, 0.05);
-    
-    border: 2px solid blueviolet;
 }
 
 .js-second-div{
@@ -458,7 +433,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    border: 2px solid red;
     margin: 40px;
 }
 
@@ -479,9 +453,6 @@ body {
 .js-para{
     width: 284px;
     height: 52px;
-    display:flex ;
-    flex-direction: column;
-    align-items: flex-start;
     color: rgb(13, 19, 33, 0.7);
     font-size: 16px;
     font-weight: 400;
@@ -492,9 +463,6 @@ body {
 .js-atr{
     width: 284px;
     height: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 700;
@@ -514,11 +482,9 @@ body {
     margin: 150px 150px;
     display: flex;
     flex-direction: column;
-    background-image: url(../assets/handshake.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../assets/handshake.jpg);
     align-items: flex-start;
     border-radius: 16px;
-    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
-    border: 2px solid red;
     background-position: center;
 }
 .support-f-div{
@@ -529,7 +495,6 @@ body {
     justify-content: center;
     align-items: center;
     margin: 64px 48px;
-    border: 2px solid wheat;
 }
 
 .sup-head-para{
@@ -539,15 +504,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid snow;
 }
 
 .support-head{
     width: 292px;
     height: 36px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     color: rgb(255, 255, 255);
     font-size: 32px;
     font-weight: 700;
@@ -559,17 +520,12 @@ body {
 .support-para{
     width: 606px;
     height: 52px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     text-align: center;
     margin-top: 16px;
-    /* margin: 52px 62px 0px 52px; */
 }
 
 .buttn{
@@ -601,26 +557,18 @@ body {
 .btn-submit{
     width: 120px;
     height: 57px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     border-radius: 8px;
     background: rgb(255, 255, 255);
 }
 .btn{
-    width: 80px;
-    height: 23px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
     text-align: center;
     margin: 17px 20px;
+    background-color: white;
+    border: none;
  }
 
  footer {
