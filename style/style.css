@@ -177,3 +177,66 @@ body {
 .design3{
     margin-bottom: 0px;
 }
+
+
+
+
+
+
+.video{
+    width: 1140px;
+    height: 777px;
+    display: flex;
+    flex-direction: column;
+    margin: 90px auto;
+    border: 2px solid blue;
+    justify-content: space-between;
+    align-items: center;
+}
+.video-description{
+    width: 852px;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 48px;
+    border: 2px solid red;
+}
+.video-head{
+    width: 100%;
+    height: 39px;
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    border: 2px solid yellowgreen;
+    margin-bottom: 24px;
+}
+.video-para{
+    width: 100%;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    border: 2px solid black;
+    
+}
+.jonkar-video{
+    width: 1140px;
+    height: 614px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    border: 2px solid red;
+    padding: 32px;
+}
+
+
+.jonkar-video iframe {
+    width: 1076px;
+    height: 550px;
+    border: 2px solid burlywood;
+}
